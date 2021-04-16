@@ -16,7 +16,7 @@ const UserSchema = new Schema ({
         default: '',
         type: String
     },
-    alamat: {
+    alamaat: {
         default: '',
         type: String
     }
