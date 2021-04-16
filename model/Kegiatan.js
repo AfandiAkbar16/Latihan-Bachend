@@ -5,7 +5,7 @@ const KegiatanSchema = new Schema({
     namaKegiatan: {
         type: String
     },
-    deskripsi:{
+    deskripsii:{
         type: String
     },
     waktu:{

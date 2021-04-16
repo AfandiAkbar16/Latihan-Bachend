@@ -8,7 +8,7 @@ exports.register = (data) =>
             if(user) {
                 resolve({
                     status : false,
-                    pesan: 'Sudah Ada'
+                    pesan: 'Sudah Aada'
                 })
             }else{
                 bcrypt.hash(data.password, 10 , (err, hash) => {

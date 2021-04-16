@@ -6,7 +6,7 @@ exports.create = (data) =>
     kegiatanModel.create(data)
     .then(() => resolve({
         status: true,
-        pesan: 'Berhasil Input Kegiatan'
+        pesan: 'Berhasil iInput Kegiatan'
     })).catch (() => reject({
         status: false,
         pesan: 'Gagal Input Kegiatan'
